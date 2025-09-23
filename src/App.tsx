@@ -56,7 +56,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <TrendingUp className="h-8 w-8 text-[#457B9D]" />
+              <img src="/public/Screenshot 2025-09-23 at 11.21.50 AM.png" alt="FirstShares Logo" className="h-8" />
               <span className="text-xl font-bold text-gray-900">FirstShares</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
@@ -83,7 +83,7 @@ function App() {
               </span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
-              Most beginners quit before they start—not because investing is impossible, but because the terminology feels like a foreign language. Our approach breaks down essential concepts like P/E ratios, EPS, and market caps into plain, relatable language. Alongside clear explanations, we provide tools and emotional support to help you manage the anxieties that often come with learning about investing. Instead of telling you what stocks to buy, we empower you with the knowledge to make sense of any stock.
+              We make the stock market beginner-friendly by stripping away confusing jargon and providing emotional support for new investors. Instead of telling you what to buy, we teach you how to think—so you can approach investing with clarity, calm, and confidence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
               <button className="bg-[#457B9D] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#3a6a8a] transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
@@ -119,11 +119,11 @@ function App() {
               Turn Investing from Overwhelming into Empowering
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-12">
-              Most investing platforms overwhelm beginners with complex terminology and leave them to figure things out alone. We take a different approach—transforming intimidating financial concepts into clear, understandable language while providing the emotional support you need to build lasting confidence.
+              Traditional investing education throws around terms like "P/E ratios," "EPS," and "market caps" without explaining what they actually mean for you. We break down these essential concepts into plain, relatable language, and provide the emotional support you need to overcome investing anxiety. Our mission is simple: make investing accessible for beginners of every age and background.
             </p>
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
               <blockquote className="text-xl text-gray-800 italic">
-                "Unlike platforms that tell you what to buy, we empower you with the knowledge and confidence to make your own informed decisions."
+                "Instead of telling you what stocks to buy, we empower you with the knowledge to make sense of any stock—so you can invest with clarity, calm, and confidence."
               </blockquote>
             </div>
           </div>
@@ -395,7 +395,7 @@ function App() {
           <div className="grid lg:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <TrendingUp className="h-8 w-8 text-[#457B9D]" />
+                <img src="/public/Screenshot 2025-09-23 at 11.21.50 AM.png" alt="FirstShares Logo" className="h-8" />
                 <span className="text-xl font-bold">FirstShares</span>
               </div>
               <p className="text-gray-400 mb-4">
