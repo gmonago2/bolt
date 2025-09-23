@@ -83,7 +83,7 @@ function App() {
               </span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
-              We make the stock market beginner-friendly by stripping away confusing jargon and providing emotional support for new investors. Instead of telling you what to buy, we teach you how to think—so you can approach investing with clarity, calm, and confidence.
+              Our mission is to transform investing from intimidating to approachable. We break down financial jargon like P/E ratios, EPS, and market caps into plain, relatable language that anyone can understand. But we don't stop at education—we also provide tools and emotional support to help beginners manage the stress and uncertainty that often come with learning about investing. Unlike platforms that tell you what to buy, we empower you with the knowledge and confidence to make your own informed decisions. Whether you're 18 or 80, we make investing a pathway of clarity, calm, and opportunity.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
               <button className="bg-[#457B9D] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#3a6a8a] transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
@@ -119,11 +119,11 @@ function App() {
               Turn Investing from Overwhelming into Empowering
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-12">
-              Traditional investing education throws around terms like "P/E ratios," "EPS," and "market caps" without explaining what they actually mean for you. We break down these essential concepts into plain, relatable language, and provide the emotional support you need to overcome investing anxiety. Our mission is simple: make investing accessible for beginners of every age and background.
+              Most investing platforms overwhelm beginners with complex terminology and leave them to figure things out alone. We take a different approach—transforming intimidating financial concepts into clear, understandable language while providing the emotional support you need to build lasting confidence. Our comprehensive approach combines education, practical tools, and emotional guidance to help you navigate investing with clarity and calm.
             </p>
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
               <blockquote className="text-xl text-gray-800 italic">
-                "Instead of telling you what stocks to buy, we empower you with the knowledge to make sense of any stock—so you can invest with clarity, calm, and confidence."
+                "Unlike platforms that tell you what to buy, we empower you with the knowledge and confidence to make your own informed decisions. Whether you're 18 or 80, we make investing a pathway of clarity, calm, and opportunity."
               </blockquote>
             </div>
           </div>
