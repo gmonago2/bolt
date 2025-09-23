@@ -85,14 +85,6 @@ function App() {
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
               We make the stock market beginner-friendly by stripping away confusing jargon and providing emotional support for new investors. Instead of telling you what to buy, we teach you how to think—so you can approach investing with clarity, calm, and confidence.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <button className="bg-[#457B9D] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#3a6a8a] transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
-                Start Your Journey to Investing Clarity Today
-              </button>
-              <button className="border-2 border-[#87ae73] text-[#87ae73] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#87ae73] hover:text-white transition-colors">
-                Learn the Basics in Plain English
-              </button>
-            </div>
             <div className="flex justify-center items-center space-x-8 text-sm text-gray-500">
               <div className="flex items-center space-x-2">
                 <CheckCircle className="h-5 w-5 text-[#87ae73]" />
@@ -378,14 +370,6 @@ function App() {
           <p className="text-xl text-gray-600 mb-10 leading-relaxed">
             Join thousands of beginners who've already discovered that investing doesn't have to be scary. Start your journey to financial confidence and clarity today.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-[#457B9D] text-white px-10 py-4 rounded-lg text-lg font-semibold hover:bg-[#3a6a8a] transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
-              Start Your Journey to Investing Clarity Today
-            </button>
-            <button className="border-2 border-[#87ae73] text-[#87ae73] px-10 py-4 rounded-lg text-lg font-semibold hover:bg-[#87ae73] hover:text-white transition-colors">
-              Learn the Basics in Plain English
-            </button>
-          </div>
         </div>
       </section>
 
