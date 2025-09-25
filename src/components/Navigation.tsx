@@ -35,7 +35,7 @@ const Navigation: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img src="/public/Screenshot 2025-09-23 at 11.21.50 AM.png" alt="FirstShares Logo" className="h-8" />
+            <img src="/Gemini_Generated_Image_o6l9p9o6l9p9o6l9-removebg-preview.png" alt="FirstShares Logo" className="h-8" />
             <span className="text-xl font-bold text-gray-900">FirstShares</span>
           </Link>
 
