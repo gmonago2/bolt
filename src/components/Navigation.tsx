@@ -19,7 +19,7 @@ const Navigation: React.FC = () => {
   const navItems = [
     { path: '/', label: 'Home', icon: <Home className="h-5 w-5" /> },
     { path: '/jargon', label: 'Jargon Translator', icon: <BookOpen className="h-5 w-5" /> },
-    { path: '/anxiety-help', label: 'Anxiety Help', icon: <Heart className="h-5 w-5" /> },
+    { path: '/anxiety-help', label: 'FAQ', icon: <Heart className="h-5 w-5" /> },
     { path: '/missions', label: 'Missions', icon: <Target className="h-5 w-5" /> },
     { path: '/compatibility', label: 'Compatibility Score', icon: <BarChart3 className="h-5 w-5" /> },
     { path: '/social', label: 'Community', icon: <Users className="h-5 w-5" /> },
