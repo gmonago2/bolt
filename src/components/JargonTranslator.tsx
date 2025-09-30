@@ -237,3 +237,4 @@ const JargonTranslator: React.FC = () => {
 };
 
 export default JargonTranslator;
+

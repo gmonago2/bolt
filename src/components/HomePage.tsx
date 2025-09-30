@@ -1,26 +1,14 @@
 import React, { useState } from 'react';
 import { 
-  TrendingUp, 
-  BookOpen, 
-  Shield, 
-  Users, 
   CheckCircle, 
   Star, 
-  ChevronDown, 
-  ChevronUp,
   Mail,
   BarChart3,
-  Target,
   Heart
 } from 'lucide-react';
 
 const HomePage: React.FC = () => {
-  const [openFAQ, setOpenFAQ] = useState<number | null>(null);
   const [email, setEmail] = useState('');
-
-  const toggleFAQ = (index: number) => {
-    setOpenFAQ(openFAQ === index ? null : index);
-  };
 
   const handleEmailSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -29,25 +17,6 @@ const HomePage: React.FC = () => {
     setEmail('');
     alert('Thank you! We\'ll send you our free investing starter guide.');
   };
-
-  const faqs = [
-    {
-      question: "Do I need a lot of money to start investing?",
-      answer: "Not at all! You can start investing with as little as $1 through many modern platforms. Our course teaches you how to begin with whatever amount you're comfortable with."
-    },
-    {
-      question: "How long does it take to understand the basics?",
-      answer: "Most students grasp the fundamental concepts within 2-3 weeks of consistent learning. Our bite-sized lessons are designed to fit into your busy schedule."
-    },
-    {
-      question: "Will you tell me which stocks to buy?",
-      answer: "No, we don't give specific stock recommendations. Instead, we teach you how to evaluate any stock yourself, so you can make informed decisions based on your own research and goals."
-    },
-    {
-      question: "What if I'm afraid of losing money?",
-      answer: "Fear is completely normal! Our program includes modules specifically designed to help manage investment anxiety and teaches risk management strategies to help you invest with confidence."
-    }
-  ];
 
   return (
     <div className="min-h-screen bg-white">
@@ -284,44 +253,6 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-20 bg-gradient-to-br from-[#457B9D]/10 via-[#eae6e3]/20 to-[#87ae73]/10 relative overflow-hidden">
-        <div className="absolute top-10 left-1/3 w-20 h-20 bg-[#f4e98c]/20 rounded-full blur-lg"></div>
-        <div className="absolute bottom-10 right-1/3 w-16 h-16 bg-[#457B9D]/15 rounded-full blur-lg"></div>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Questions We Hear <span className="bg-gradient-to-r from-[#457B9D] to-[#87ae73] bg-clip-text text-transparent">All the Time</span>
-            </h2>
-            <p className="text-lg text-gray-600">
-              Get reassuring answers to the most common questions from beginners just like you.
-            </p>
-          </div>
-
-          <div className="space-y-4">
-            {faqs.map((faq, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-sm border border-gray-100">
-                <button
-                  onClick={() => toggleFAQ(index)}
-                  className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
-                >
-                  <span className="text-lg font-semibold text-gray-900">{faq.question}</span>
-                  {openFAQ === index ? (
-                    <ChevronUp className="h-5 w-5 text-gray-500" />
-                  ) : (
-                    <ChevronDown className="h-5 w-5 text-gray-500" />
-                  )}
-                </button>
-                {openFAQ === index && (
-                  <div className="px-6 pb-4">
-                    <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Newsletter Signup */}
       <section className="py-20 bg-gradient-to-br from-[#457B9D] to-[#87ae73]">
@@ -423,3 +354,4 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
+

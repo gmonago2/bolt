@@ -606,3 +606,4 @@ const CompatibilityScore: React.FC = () => {
 };
 
 export default CompatibilityScore;
+
