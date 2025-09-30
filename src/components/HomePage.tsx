@@ -4,7 +4,8 @@ import {
   Star, 
   Mail,
   BarChart3,
-  Heart
+  Heart,
+  BookOpen
 } from 'lucide-react';
 
 const HomePage: React.FC = () => {
